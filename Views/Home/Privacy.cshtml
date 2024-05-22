@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<!DOCTYPE html>
+<style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 300px;
+        background-color: #f1f1f1;
+    }
+
+    li a {
+        display: block;
+        color: #000;
+        padding: 30px 0px;
+        text-decoration: none;
+        font-size: 20px;
+        text-align: center;
+    }
+
+        li a:hover {
+            background-color: #818181;
+            color: white;
+        }
+
+    .logo {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        margin-left: 100px;
+    }
+
+    body {
+        background-color: #f1f1f1;
+    }
+</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TeQIZ Portal</title>
+    <link rel="shortcut icon" href="https://ik.imagekit.io/candyjess/TEQIZ/icon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <img class="logo" src="https://ik.imagekit.io/candyjess/TEQIZ/icon.jpeg">
+    <br>
+    <div class="navbar">
+        <div class="nav">
+            <ul class="list">
+                <li class="item"><a href="index.html">Home</a></li>
+                <li class="item"><a href="web.html">Web Development</a></li>
+                <li class="item"><a href="mobi.html">Mobile Applications</a></li>
+                <li class="item"><a href="game.html">Game Development</a></li>
+                <li class="item"><a href="user.html">User Management</a></li>
+                <li class="item"><a href="/landing/index.html" onclick="myFunction()">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            alert('Are you sure you want to logout?');
+        }
+    </script>
+</body>
+</html>
